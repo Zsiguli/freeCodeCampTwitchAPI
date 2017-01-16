@@ -1,0 +1,57 @@
+body {
+  background: lavender;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  border-radius: 100%;
+  width:  40px;
+  height: 40px;
+  margin: 10px 20px;
+}
+
+p {
+  margin: 10px 20px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-one-channel {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+}
+
+.online {
+  background: lightgreen;
+}
+
+.offline {
+  background: pink;
+  order: 1;
+}
+
+.standalone {
+  margin-left: auto;
+}
+
+.not-existing {
+  background: lightgrey;
+  order: 2;
+}
+
+.space {
+  margin-top: 35px;
+}
